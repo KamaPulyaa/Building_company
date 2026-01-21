@@ -4,7 +4,6 @@
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   padding-left: 80px;
-  padding-top: 100px;
 }
 
 * {
@@ -84,6 +83,7 @@ button:hover {
   font-size: 24px;
 }
 
+
 .btn123 {
   display: flex;
   gap: 30px;
@@ -91,3 +91,147 @@ button:hover {
   padding-top: 50px;
   padding-right: 300px;
 }/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 834px) {
+
+  .n1 {
+    font-size: 42px;
+    padding-left: 40px;
+    padding-top: 60px;
+  }
+
+  .Rectangle,
+  .Rectangle2,
+  .Rectangle3,
+  .Rectangle4 {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .textrec h2 {
+    font-size: 30px !important;
+  }
+
+  .textrec p {
+    font-size: 20px !important;
+  }
+
+  .btn123 {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.news-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 80px 40px;
+}
+
+.n1 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* mobile year default yashirin */
+.year-wrapper {
+  display: none;
+}
+
+#yearToggle {
+  display: none;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.news-title {
+  font-size: 64px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.year-select {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 30px;
+  border: 1px solid #E4E4E4;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.year-select img {
+  width: 16px;
+}
+@media screen and (max-width: 380px) {
+
+  .desktop-year {
+    display: none;
+  }
+
+  .news-top {
+    padding: 40px 0px;
+    padding-top: 0;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .n1 {
+    font-size: 28px;
+    padding: 0;
+  }
+
+  .year-wrapper {
+    display: block;
+    width: 120px;
+    position: relative;
+  }
+
+  .year-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .year-select img {
+    width: 12px;
+  }
+
+  .year-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #E4E4E4;
+    z-index: 10;
+  }
+  li{
+    list-style: none;
+  }
+  .year-dropdown li {
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+  #yearToggle:checked ~ .year-dropdown {
+    display: block;
+  }
+}
