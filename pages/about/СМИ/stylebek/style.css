@@ -1,0 +1,22 @@
+.left {
+  border: 1px solid #EFA359;
+  margin-left: 20px;
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+
+#mix {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 40px;
+  gap: 2px;
+}
+
+.div01 {
+  border: 1px solid #EFA359;
+  padding-bottom: 50px;
+}
+
+* {
+  font-family: sans-serif;
+}/*# sourceMappingURL=style.css.map */
