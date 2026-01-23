@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ipoteka {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url("/assets/img/svg/ipoteka_img.svg");
+  margin: 0 auto;
+  width: 100%;
+}
+.ipoteka mark {
+  background-color: white;
+  color: #EFA359;
+}
+
+.ipoteka_h1 {
+  color: white;
+  background-color: transparent;
+  width: 1002px;
+  height: 155px;
+}/*# sourceMappingURL=style.css.map */
