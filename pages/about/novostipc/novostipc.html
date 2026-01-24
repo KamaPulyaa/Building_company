@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../pages/about/novostipc/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="logo info">
+            <img src="../../../assets/img/png/windom logo 4.png" alt="" />
+          </div>
+          <div class="navbar-info">
+            <div class="info-container info">
+              <div class="menu-item">
+                <label for="toggle-proekty">Наши проекты <img src="../../../assets/img/png/Vector (1).png" alt=""></label>
+                <input type="checkbox" id="toggle-proekty" />
+                <ul>
+                  <li><a href="">Изумрудный Village</a></li>
+                  <li><a href="">IQ CLUB</a></li>
+                  <li><a href="">Усады</a></li>
+                  <li><a href="">Зимняя горка</a></li>
+                  <li><a href="">Константиновка</a></li>
+                </ul>
+              </div>
+
+              <div class="menu-item">
+                <label for="toggle-doma">Дома <img src="../../../assets/img/png/Vector (1).png" alt=""></label>
+                <input type="checkbox" id="toggle-doma" />
+                <ul>
+                  <li><a href="">Одноэтажные</a></li>
+                  <li><a href="">Двухэтажные</a></li>
+                  <li><a href="">Таунхаусы</a></li>
+                  <li><a href="">Все дома</a></li>
+                </ul>
+              </div>
+
+              <a href="">Ипотека</a>
+
+              <div class="menu-item">
+                <label for="toggle-kompany">О компании <img src="../../../assets/img/png/Vector (1).png" alt=""></label>
+                <input type="checkbox" id="toggle-kompany" />
+                <ul>
+                  <li><a href="">Команда</a></li>
+                  <li><a href="">СМИ о нас</a></li>
+                  <li><a href="">Новости</a></li>
+                </ul>
+              </div>
+
+              <a href="">Контакты</a>
+            </div>
+
+            <div class="contact-container info">
+              <img src="../../assets/img/png/ph_phone.png" alt="" />
+              <span>+7 (962) 555-25-25</span>
+            </div>
+            <div class="navbar-btn info">
+              <button><a href="">Заказать звонок</a></button>
+            </div>
+          </div>
+          <div class="navbar-icon">
+            <label for="icon-menu">
+              <img
+                src="../../../assets/img/png/iconamoon_menu-burger-horizontal-light.png"
+                alt="icon"
+                for="icon-menu"
+            /></label>
+            <input type="checkbox" id="icon-menu" />
+            <ul>
+              <li>
+                <a href="">
+                  <img src="" alt=""
+                /></a>
+              </li>
+              <li><a href=""> О компании</a></li>
+              <li><a href=""> Проекты</a></li>
+              <li><a href=""> Ипотека</a></li>
+              <li><a href=""> Новости</a></li>
+              <li><a href=""> СМИ о нас</a></li>
+              <li><a href=""> Команда</a></li>
+              <li><a href=""> Контакты</a></li>
+              <li>
+                <a href=""> <img src="../../../assets/img/png/ph_phone.png" alt="" /> +7 (962) 555-25-25</a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-vk"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-whatsapp"></i
+                > </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="navbar-btn info">
+                    <button><a href="">Заказать звонок</a></button>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container.info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 0 10px;
+}
+
+.info-container.info a,
+.info-container.info label {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.info-container.info input {
+  display: none;
+}
+
+.info-container.info ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+  min-width: 150px;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+}
+
+.info-container.info ul li a {
+  padding: 10px;
+  display: block;
+  white-space: nowrap;
+}
+
+.info-container.info ul li a:hover {
+  color: #efa35a;
+}
+
+.info-container.info input:checked + ul {
+  display: block;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.navbar-btn button {
+  font-size: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #efa35a;
+}
+
+.navbar-btn button:hover {
+  background-color: #f5dcc2;
+}
+
+.navbar-btn button a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+header nav{
+    border-bottom: 1px solid #E3E3E3;
+}
+.navbar-info {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.navbar-icon {
+  display: none;
+}
+
+@media screen and (max-width: 834px) {
+  .navbar-icon {
+    display: block;
+  }
+  .navbar-info {
+    display: none;
+  }
+  .navbar-icon input {
+    display: none;
+  }
+
+  .navbar-icon input {
+    display: none;
+  }
+  .navbar-icon input:checked {
+    display: none;
+  }
+  .navbar-icon ul li {
+    list-style: none;
+  }
+  .navbar-icon ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    white-space: nowrap;
+  }
+  .navbar-icon ul li a:hover {
+    color: #efa35a;
+  }
+}
+      </style>
+    </header>
+<div class="news-top">
+  <h3 class="n1">НОВОСТИ</h3>
+
+  <!-- mobile year -->
+  <div class="year-wrapper">
+    <input type="checkbox" id="yearToggle">
+
+    <label for="yearToggle" class="year-select">
+      2023
+      <img src="../../../assets/img/png/Vector (1).png" alt="">
+    </label>
+
+    <ul class="year-dropdown">
+      <li>2023</li>
+      <li>2022</li>
+      <li>2021</li>
+      <li>2020</li>
+      <li>2019</li>
+      <li>2018</li>
+      <li>2017</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DESKTOP uchun eski year qatori -->
+<div class="year desktop-year">
+  <span class="eee">2017</span>
+  <span class="eee">2018</span>
+  <span class="eee">2019</span>
+  <span class="eee">2020</span>
+  <span class="eee">2021</span>
+  <span class="eee">2022</span>
+  <span class="eee">2023</span>
+</div>
+
+    <div class="Rectangle">
+        <img src="../../../assets/img/png/Rectangle 117.png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px; padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="Rectangle2">
+        <img src="../../../assets/img/png/Rectangle 117 (1).png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px;  padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="Rectangle3">
+        <img src="../../../assets/img/png/Rectangle 117 (2).png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px; padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="Rectangle4">
+        <img src="../../../assets/img/png/Rectangle 117 (3).png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px; padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="Rectangle4">
+        <img src="../../../assets/img/png/Rectangle 117 (4).png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px;  padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="Rectangle4">
+        <img src="../../../assets/img/png/Rectangle 117 (5).png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px;  padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="Rectangle4">
+        <img src="../../../assets/img/png/Rectangle 117 (6).png" alt="" height="471px">
+        <div class="textrec">
+            <h2 style="font-size: 40px; padding-top: 70px; color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500;">10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png" alt="">
+            <p style="color: black; font-size: 27px; padding-top: 30px;">По данным Всероссийского центра изучения <br> общественного мнения — 68% горожан хотели бы <br> переехать в частный дом.</p>
+            <p style="color: #EFA35A; font-size: 27px;  padding-top: 79px;">Читать далее</p>
+        </div>
+    </div>
+    <div class="btn123">
+        <button class="katta1">< Пред.</button>
+        <button class="sonli">1</button>
+        <button class="sonli">2</button>
+        <button class="sonli">3</button>
+        <button class="sonli">4</button>
+        <button class="katta">Пред. ></button>
+    </div>
+        <footer class="about_footer">
+      <div class="about_container footer-row">
+        <div class="foot-info">
+          <h2>О компании</h4>
+          <hr class="footer_hr" />
+          <a href="">Главная</a>
+          <a href="">Наша команда </a>
+          <a href="">СМИ о нас</a>
+          <a href="">Отзывы</a>
+          <a href="">Новости</a>
+          <a href="">Контакты</a>
+        </div>
+        <div class="foot-info">
+          <h2>Проекты</h4>
+          <hr class="footer_hr" />
+          <a href="">Изумрудный Village</a>
+          <a href="">IQ-CLUB</a>
+        </div>
+        <div class="foot-info">
+          <h2>Ипотека</h4>
+          <hr class="footer_hr" />
+          <a href="">Военная ипотека</a>
+          <a href="">Господдержка</a>
+        </div>
+        <div class="footer-social">
+            <img src="../../../assets/img/png/windom logo 3.png" alt="" />
+            <div class="social-icon">
+              <a href=""> <i class="fa-brands fa-youtube"></i></a>
+              <a href=""> <i class="fa-brands fa-vk"></i></a>
+              <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+              <a href=""> <i class="fa-brands fa-whatsapp"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-about">
+          <a href="">Политика конфиденциальности</a>
+          <a href="" class="email"> <i class="fa-regular fa-envelope"></i> windom.kazan@gmail.com</a>
+      </div>
+      <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about_footer {
+  background: #333;
+  color: #fff;
+  margin-top: 80px;
+  font-family: sans-serif;
+  padding: 50px 40px;
+}
+.footer-row {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.foot-info a:hover {
+  color: #efa35a;
+}
+
+.foot-info a {
+  text-decoration: none;
+  color: rgb(176, 174, 174);
+  font-size: 20px;
+}
+
+.footer_hr {
+  border: 1px solid #efa35a;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.foot-info {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+.social-icon a {
+  color: white;
+  font-size: 20px;
+}
+
+.social-icon a:hover {
+  color: #efa35a;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-about {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+}
+.email {
+  padding: 5px;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 834px) {
+  .foot-info a {
+    display: none;
+  }
+  .foot-info h2 {
+    font-size: 15px;
+  }
+  .footer-social img {
+    width: 160px;
+    height: 142px;
+  }
+}
+
+@media  screen and (max-width: 380px) {
+    .foot-info {
+        display: none;
+    }
+
+    .footer-about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+      </style>
+    </footer>
+</body>
+</html>
