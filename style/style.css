@@ -16,34 +16,34 @@ header {
 }
 
 .button {
-    padding-top: 50px;
-    .button1 {
-        background-color: #EFA359;
-    }
-    .button1:hover{
-        background-color: #F5DCC2;
-        border: 1px solid #EFA35A;
-        a {
-            color: black;
-        }
-    }
-    .button2:hover {
-        background-color: white;
-        border: 1px solid #EFA35A;
-        a {
-            color: black;
-        }
-    }
-  button {
-    padding: 10px;
-    border: 1px solid #efa359;
-    background-color: #353535b0;
-    a {
-      text-decoration: none;
-      color: white;
-      font-size: 20px;
-    }
-  }
+  padding-top: 50px;
+}
+.button .button1 {
+  background-color: #EFA359;
+}
+.button .button1:hover {
+  background-color: #F5DCC2;
+  border: 1px solid #EFA35A;
+}
+.button .button1:hover a {
+  color: black;
+}
+.button .button2:hover {
+  background-color: white;
+  border: 1px solid #EFA35A;
+}
+.button .button2:hover a {
+  color: black;
+}
+.button button {
+  padding: 10px;
+  border: 1px solid #efa359;
+  background-color: rgba(53, 53, 53, 0.6901960784);
+}
+.button button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .home {
@@ -65,14 +65,14 @@ header {
 .main {
   height: 802px;
   color: white;
-  h1,
-  h2 {
-    font-weight: 100;
-  }
-  span {
-    font-size: 150px;
-    font-weight: bold;
-  }
+}
+.main h1,
+.main h2 {
+  font-weight: 100;
+}
+.main span {
+  font-size: 150px;
+  font-weight: bold;
 }
 
 .txt1 {
@@ -80,32 +80,23 @@ header {
 }
 
 @media screen and (max-width: 834px) {
-    header {
-        padding: 0 42%;
-        text-align: end;
-        .logo {
-            img {
-                padding: 0 50% 0 0;
-            }
-        }
-    }
-    .main-txt {
-        h1 {
-            font-size: 18px;
-        }
-        h2 {
-            font-size: 25px;
-        }
-        span {
-            font-size: 80px;
-        }
-        .button {
-            button {
-                a {
-                    font-size: 13px
-                };
-            }
-        }
-    }
-    
+  header {
+    padding: 0 42%;
+    text-align: end;
+  }
+  header .logo img {
+    padding: 0 50% 0 0;
+  }
+  .main-txt h1 {
+    font-size: 18px;
+  }
+  .main-txt h2 {
+    font-size: 25px;
+  }
+  .main-txt span {
+    font-size: 80px;
+  }
+  .main-txt .button button a {
+    font-size: 13px;
+  }
 }
