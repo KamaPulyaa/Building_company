@@ -78,3 +78,34 @@ header {
 .txt1 {
   color: #efa359;
 }
+
+@media screen and (max-width: 834px) {
+    header {
+        padding: 0 42%;
+        text-align: end;
+        .logo {
+            img {
+                padding: 0 50% 0 0;
+            }
+        }
+    }
+    .main-txt {
+        h1 {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        span {
+            font-size: 80px;
+        }
+        .button {
+            button {
+                a {
+                    font-size: 13px
+                };
+            }
+        }
+    }
+    
+}
