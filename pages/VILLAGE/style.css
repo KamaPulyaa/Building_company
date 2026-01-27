@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .info {
@@ -350,6 +350,40 @@ header {
   color: #efa35a;
 }
 
+.section4__texts-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 300px;
+  margin-bottom: 100px;
+}
+
+.section4__texts--number {
+  text-align: center;
+}
+
+.section4__texts--number h1 {
+  font-size: 90px;
+  color: #e6a45a;
+  font-weight: bold;
+}
+
+.section4__texts--number p {
+  font-size: 24px;
+  color: #000;
+  margin-top: 15px;
+}
+
+.section4__texts--line {
+  width: 311px;
+  height: 3px;
+  background: #e6a45a;
+  margin: 10px auto 0;
+}
+
 .section4__details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,7 +401,7 @@ header {
   padding: 11px;
   display: -ms-grid;
   display: grid;
-  gap: 19px;
+  gap: 20px;
 }
 
 .section4__details__box-head {
@@ -573,79 +607,11 @@ header {
 }
 
 .section7 {
-  padding: 0px 60px;
-}
-
-.section7__span1 {
-  font-weight: 500;
-  font-size: 44px;
-}
-
-.section7__span2 {
-  font-weight: 500;
-  font-size: 44px;
-  color: #efa35a;
-}
-
-.section7__down {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
-  padding-top: 20px;
-  padding-bottom: 130px;
-}
-
-.section7__part1 {
-  display: -ms-grid;
-  display: grid;
-  gap: 30px;
-}
-
-.section7__part2 {
-  display: -ms-grid;
-  display: grid;
-  gap: 30px;
-}
-
-.section7__part1__details {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 83px;
-}
-
-.section7__part1__details-h5 {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.section7__part1__details-p {
-  font-weight: 400;
-  font-size: 20px;
-  padding-top: 14px;
-}
-
-.section7__part1__btn {
-  padding: 19px 22px;
-  width: 265px;
-  height: 60px;
-  background-color: #efa35a;
-  border: 1px solid #efa35a;
-  font-weight: 700;
-  font-size: 18px;
-  color: #ffffff;
-}
-
-.section8 {
   background-image: url(assets/imgs/);
   padding: 50px 185px;
 }
 
-.section8__title {
+.section7__title {
   display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -655,10 +621,80 @@ header {
   padding-top: 80px;
 }
 
-.section8__span1 {
+.section7__span1 {
   font-weight: 500;
   font-size: 44px;
   color: white;
+}
+
+.section7__span2 {
+  font-weight: 500;
+  font-size: 44px;
+  color: #efa35a;
+}
+
+.section7__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 56px;
+}
+
+.section7__span3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+}
+
+.section7__span4 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #efa359;
+}
+
+.section7__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 58px;
+}
+
+.section7__btn1 {
+  width: 400px;
+  padding: 26px;
+  background-color: #efa35a;
+  border: 1px solid #efa35a;
+  font-weight: 700;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.section7__btn2 {
+  width: 400px;
+  padding: 26px;
+  background-color: #bcbcbc;
+  border: 1px solid #efa35a;
+  font-weight: 700;
+  font-size: 23px;
+  color: black;
+}
+
+.section8 {
+  padding: 130px 60px;
+}
+
+.section8__span1 {
+  font-weight: 500;
+  font-size: 44px;
+  color: black;
 }
 
 .section8__span2 {
@@ -671,76 +707,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10px;
-  padding-top: 20px;
-  padding-bottom: 56px;
-}
-
-.section8__span3 {
-  font-weight: 400;
-  font-size: 30px;
-  color: white;
-}
-
-.section8__span4 {
-  font-weight: 400;
-  font-size: 30px;
-  color: #efa359;
-}
-
-.section8__btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 58px;
-}
-
-.section8__btn1 {
-  width: 400px;
-  padding: 26px;
-  background-color: #efa35a;
-  border: 1px solid #efa35a;
-  font-weight: 700;
-  font-size: 23px;
-  color: #ffffff;
-}
-
-.section8__btn2 {
-  width: 400px;
-  padding: 26px;
-  background-color: #bcbcbc;
-  border: 1px solid #efa35a;
-  font-weight: 700;
-  font-size: 23px;
-  color: black;
-}
-
-.section9 {
-  padding: 130px 60px;
-}
-
-.section9__span1 {
-  font-weight: 500;
-  font-size: 44px;
-  color: black;
-}
-
-.section9__span2 {
-  font-weight: 500;
-  font-size: 44px;
-  color: #efa35a;
-}
-
-.section9__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -748,13 +714,13 @@ header {
   padding-top: 40px;
 }
 
-.section9__body__patr1-h4 {
+.section8__body__patr1-h4 {
   font-weight: 500;
   font-size: 30px;
   padding-top: 40px;
 }
 
-.section9__body__patr1-details {
+.section8__body__patr1-details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -762,22 +728,22 @@ header {
   padding-top: 20px;
 }
 
-.section9__body__patr1-details--p1 {
+.section8__body__patr1-details--p1 {
   font-weight: 400;
   font-size: 20px;
 }
 
-.section9__body__patr1-details--p2 {
+.section8__body__patr1-details--p2 {
   font-weight: 400;
   font-size: 20px;
   color: #efa35a;
 }
 
-.section10 {
+.section9 {
   padding: 0px 60px;
 }
 
-.section10__head {
+.section9__head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -786,14 +752,14 @@ header {
           justify-content: space-between;
 }
 
-.section10__head__title-span1 {
+.section9__head__title-span1 {
   font-weight: 500;
   font-size: 44px;
   color: #efa35a;
   font-style: italic;
 }
 
-.section10__head__title-span2 {
+.section9__head__title-span2 {
   font-weight: 500;
   font-size: 44px;
   color: black;
@@ -815,7 +781,7 @@ header {
   background: #efa35a;
 }
 
-.section10__details__img {
+.section9__details__img {
   width: 100%;
   padding-top: 50px;
 }
