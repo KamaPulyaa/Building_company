@@ -1,307 +1,279 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <header >
-      <nav>
-        <div class="navbar-container">
-          <div class="logo info">
-            <img src="/assets/img/svg/Лого.svg" alt="" />
-          </div>
-          <div class="navbar-info">
-            <div class="info-container info">
-              <div class="menu-item">
-                <label for="toggle-proekty">Наши проекты</label>
-                <input type="checkbox" id="toggle-proekty" />
-                <ul>
-                  <li><a href="">Изумрудный Village</a></li>
-                  <li><a href="">IQ CLUB</a></li>
-                  <li><a href="">Усады</a></li>
-                  <li><a href="">Зимняя горка</a></li>
-                  <li><a href="">Константиновка</a></li>
-                </ul>
-              </div>
 
-              <div class="menu-item">
-                <label for="toggle-doma">Дома</label>
-                <input type="checkbox" id="toggle-doma" />
-                <ul>
-                  <li><a href="">Одноэтажные</a></li>
-                  <li><a href="">Двухэтажные</a></li>
-                  <li><a href="">Таунхаусы</a></li>
-                  <li><a href="">Все дома</a></li>
-                </ul>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-              <a href="">Ипотека</a>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="/assets/img/svg/Лого.svg" alt="Logo">
+      </div>
 
-              <div class="menu-item">
-                <label for="toggle-kompany">О компании</label>
-                <input type="checkbox" id="toggle-kompany" />
-                <ul>
-                  <li><a href="">Команда</a></li>
-                  <li><a href="">СМИ о нас</a></li>
-                  <li><a href="">Новости</a></li>
-                </ul>
-              </div>
+      <!-- DESKTOP MENU -->
+      <ul class="nav__menu">
+        <li class="dropdown">
+          <span>Наши проекты</span>
+          <ul class="dropdown__menu">
+            <li><a href="#">Изумрудный Village</a></li>
+            <li><a href="#">IQ CLUB</a></li>
+            <li><a href="#">Усады</a></li>
+          </ul>
+        </li>
 
-              <a href="">Контакты</a>
-            </div>
+        <li class="dropdown">
+          <span>Дома</span>
+          <ul class="dropdown__menu">
+            <li><a href="#">Одноэтажные</a></li>
+            <li><a href="#">Двухэтажные</a></li>
+          </ul>
+        </li>
 
-            <div class="contact-container info">
-              <img src="/assets/img/svg/ph_phone.svg" alt="" />
-              <span>+7 (962) 555-25-25</span>
-            </div>
-            <div class="navbar-btn info">
-              <button><a href="">Заказать звонок</a></button>
-            </div>
-          </div>
-          <div class="navbar-icon">
-            <label for="icon-menu">
-              <img
-                src="/assets/img/svg/icon-burger.svg"
-                alt="icon"
-                for="icon-menu"
-            /></label>
-            <input type="checkbox" id="icon-menu" />
-            <ul>
-              <li>
-                <a href="">
-                  <img src="/assets/img/svg/header-logo.svg" alt=""
-                /></a>
-              </li>
-              <li><a href=""> О компании</a></li>
-              <li><a href=""> Проекты</a></li>
-              <li><a href=""> Ипотека</a></li>
-              <li><a href=""> Новости</a></li>
-              <li><a href=""> СМИ о нас</a></li>
-              <li><a href=""> Команда</a></li>
-              <li><a href=""> Контакты</a></li>
-              <li>
-                <a href=""> <img src="/assets/img/svg/ph_phone.svg" alt="" /> +7 (962) 555-25-25</a>
-              </li>
-              <li>
-                <a href="">
-                  <i class="fa-brands fa-youtube"></i>
-                  <i class="fa-brands fa-vk"></i>
-                  <i class="fa-brands fa-linkedin"></i>
-                  <i class="fa-brands fa-whatsapp"></i
-                > </a>
-              </li>
-              <li>
-                <a href="">
-                  <div class="navbar-btn info">
-                    <button><a href="">Заказать звонок</a></button>
-                  </div></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="isoqjon">
-           <div class="wrapper">
-            <span>Построенные “код ключ” дома</span>
-          </div>
-          <div class="wrapper_text">
-            <h1>КОНСТАНТИНОВКА</h1>
-          </div>
-        </div>
-      </nav>
-    </header>
- <div class="phone"></div>
-    <section>
-        <div class="contaner">
-            <div>
-                <div>
-                    <img style="margin-left: 200px;" src="/assets/img/svg/Заголовок.svg" alt="">
-                </div>
-                <div style="display: flex;">
-                  <div>
-                    <img class="kimm9" style="margin-left: 200px;" src="/assets/img/svg/Group 310.svg" alt="">
-                </div>
-                <div class="hr">
-                  <p class="cssd">Константиновка - это проектное строительство частных домов на территории поселка 
-Константиновка (г. Казань)</p>
-     <div style="padding: 23px;"></div>
-<div class="kim">
- <img style="margin-left: 30px;" src="/assets/img/svg/construction_project_plan_building_architect_design_develop-66_icon-icons.com_60219 1.svg" alt=""> 
- <p>Строительство домов под ключ</p>
-</div>
+        <li><a href="#">Ипотека</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
 
-<div style="padding: 23px;"></div>
-<div class="kim">
- <img style="margin-left: 30px;" src="/assets/img/svg/construction_project_plan_building_architect_design_develop-55_icon-icons.com_60230 1.png" alt=""> 
- <p>Подвод всех коммуникаций</p>
-</div>
+      <div class="nav__actions">
+        <span class="phone">+7 (962) 555-25-25</span>
+        <button class="btn">Заказать звонок</button>
+      </div>
 
-<div style="padding: 23px;"></div>
-<div class="kim">
- <img style="margin-left: 30px;" src="/assets/img/svg/smart_cctv_camera_monitoring_camera_protection_safety_icon_218664 1.png" alt=""> 
- <p>Закрытая территория с пропускной <br> системой безопасности</p>
-</div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <!-- BURGER -->
+      <input type="checkbox" id="burger">
+      <label for="burger" class="burger">
+        <span></span><span></span><span></span>
+      </label>
 
-    <section>
-      <div class="contaner">
+      <!-- MOBILE MENU -->
+      <div class="mobile">
+        <a href="#">Наши проекты</a>
+        <a href="#">Дома</a>
+        <a href="#">Ипотека</a>
+        <a href="#">Контакты</a>
+        <a href="#">+7 (962) 555-25-25</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div style="margin-top: 260px;">
+
+        <span>Построенные “под ключ” дома</span>
+        <h1>КОНСТАНТИНОВКА</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="phone"></div>
+  <section>
+    <div class="contaner">
+      <div>
         <div>
+          <img style="margin-left: 200px;" src="/assets/img/svg/Заголовок.svg" alt="">
+        </div>
+        <div style="display: flex;">
           <div>
-            <a class="flex" href="">Галерея<em style="color: #EFA359; font-family: sans-serif;">построенных домов</em></a>
+            <img class="kimm9" style="margin-left: 200px;" src="/assets/img/svg/Group 310.svg" alt="">
           </div>
-          <div style="padding: 20px;"></div>
-          <div class="contanerr">
-            
+          <div class="hr">
+            <p class="cssd">Константиновка - это проектное строительство частных домов на территории поселка
+              Константиновка (г. Казань)</p>
+            <div style="padding: 23px;"></div>
+            <div class="kim">
+              <img style="margin-left: 30px;"
+                src="/assets/img/svg/construction_project_plan_building_architect_design_develop-66_icon-icons.com_60219 1.svg"
+                alt="">
+              <p>Строительство домов под ключ</p>
+            </div>
+
+            <div style="padding: 23px;"></div>
+            <div class="kim">
+              <img style="margin-left: 30px;"
+                src="/assets/img/svg/construction_project_plan_building_architect_design_develop-55_icon-icons.com_60230 1.png"
+                alt="">
+              <p>Подвод всех коммуникаций</p>
+            </div>
+
+            <div style="padding: 23px;"></div>
+            <div class="kim">
+              <img style="margin-left: 30px;"
+                src="/assets/img/svg/smart_cctv_camera_monitoring_camera_protection_safety_icon_218664 1.png" alt="">
+              <p>Закрытая территория с пропускной <br> системой безопасности</p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-<div style="padding: 30px;"></div>
-    <section>
-      <div class="contaner">
+    </div>
+  </section>
+
+   <section>
+    <div class="contaner">
+      <div>
         <div>
-          <div>
-            <a class="flex" href=""><em style="color: #EFA359; font-family: sans-serif;">Видео </em>о проекте</a>
-          </div>
-          <div style="padding: 20px;"></div>
-          <div style="text-align: center;">
-            <img src="/assets/img/svg/Group 343.png" alt="" class="contanerrr">
-          </div>
+          <a class="flex" href="">Галерея<em style="color: #EFA359; font-family: sans-serif;">построенных домов</em></a>
+        </div>
+        <div style="padding: 20px;"></div>
+        <div class="contanerr">
+
         </div>
       </div>
-    </section>
-<div style="padding: 40px;"></div>
-    <section>
-      <div class="contaner">
-        <div class="contact">
-          <div>
-            <div style="padding: 40px;"></div>
+    </div>
+  </section>
+  <div style="padding: 30px;"></div>
+  <section>
+    <div class="contaner">
+      <div>
+        <div>
+          <a class="flex" href=""><em style="color: #EFA359; font-family: sans-serif;">Видео </em>о проекте</a>
+        </div>
+        <div style="padding: 20px;"></div>
+        <div style="text-align: center;">
+          <img src="/assets/img/svg/Group 343.png" alt="" class="contanerrr">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div style="padding: 40px;"></div>
+  <section>
+    <div class="contaner">
+      <div class="contact">
+        <div>
+          <div style="padding: 40px;"></div>
           <h1 class="isoqjonn">спешите забронировать дом</h1>
-          <h1 class="isoqjonn">в коттеджном посёлке <a style="color: #EFA359 ;text-decoration: none; " href="">изумрудный village</a> </h1>
+          <h1 class="isoqjonn">в коттеджном посёлке <a style="color: #EFA359 ;text-decoration: none; "
+              href="">изумрудный village</a> </h1>
           <div style="text-align: center;">
-          <img class="isoqjonnn"src="/assets/img/svg/Line 47.png" alt=""> 
+            <img class="isoqjonnn" src="/assets/img/svg/Line 47.png" alt="">
           </div>
           <div></div>
           <div style="text-align: center;">
-          <a class="isoq"  href="">Количество свободных участков: <a style="color: #EFA359; text-decoration: none; font-size: 25px;" href="">12</a></a>
+            <a class="isoq" href="">Количество свободных участков: <a
+                style="color: #EFA359; text-decoration: none; font-size: 25px;" href="">12</a></a>
           </div>
           <div style="padding: 20px;"></div>
           <div class="person">
             <button class="ot">СВЯЗАТЬСЯ С МЕНЕДЖЕРОМ</button>
             <button class="it">ОСТАВИТЬ ЗАЯВКУ</button>
           </div>
-          </div>
         </div>
       </div>
-    </section>
-    
-     <section>
-      <div class="contaner">
-        <div>
-          <div style="padding: 40px;"></div>
-          <div class="sa">
-            <a class="grid" href="">ЗРУГИЕ <a class="gir" href="">ПРОЕКТЫ</a></a>
-          </div>
+    </div>
+  </section>
 
-          <div class="text">
-            <div class="deg">
-              <img src="/assets/img/svg/Rectangle 92.png" alt="">
-            </div>
-            <div style="padding-left: 20px;"></div>
-            <div class="de">
-              <img src="/assets/img/svg/Rectangle 92 (1).png" alt="">
-            </div>
+  <section>
+    <div class="contaner">
+      <div>
+        <div style="padding: 40px;"></div>
+        <div class="sa">
+          <a class="grid" href="">ЗРУГИЕ <a class="gir" href="">ПРОЕКТЫ</a></a>
+        </div>
+
+        <div class="text">
+          <div class="deg">
+            <img src="/assets/img/svg/Rectangle 92.png" alt="">
           </div>
+          <div style="padding-left: 20px;"></div>
+          <div class="de">
+            <img src="/assets/img/svg/Rectangle 92 (1).png" alt="">
+          </div>
+        </div>
         <div style="padding: 15px;"></div>
-          <div>
-            <div style="display: flex;">
-                <div>
+        <div>
+          <div style="display: flex;">
+            <div>
               <div> <a class="aska" style="margin-left: 200px;" href="">ИЗУМРУДНЫЙ VILLAGE</a> </div>
             </div>
             <div>
               <div><a class="aska" style="margin-left: 258px;" href="">IQ CLUB</a></div>
             </div>
-            </div>
           </div>
-         <div style="padding:5px;"></div>
-          <div style="display: flex;">
-            <div class="scss">
-              <img src="/assets/img/svg/ph_map-pin-light.png" alt="">
-              <p>8 минут от метро Дубравная. </p> <p style="color: #EFA359;">Дома сдаются</p>
-            </div>
+        </div>
+        <div style="padding:5px;"></div>
+        <div style="display: flex;">
+          <div class="scss">
+            <img src="/assets/img/svg/ph_map-pin-light.png" alt="">
+            <p>8 минут от метро Дубравная. </p>
+            <p style="color: #EFA359;">Дома сдаются</p>
+          </div>
 
-             <div class="scs">
-              <img src="/assets/img/svg/ph_map-pin-light.png" alt="">
-              <p>Начало строительства </p> <p style="color: #EFA359;">- I квартал 2024 года</p>
-            </div>
+          <div class="scs">
+            <img src="/assets/img/svg/ph_map-pin-light.png" alt="">
+            <p>Начало строительства </p>
+            <p style="color: #EFA359;">- I квартал 2024 года</p>
           </div>
         </div>
       </div>
-     </section> 
-     <div style="padding: 50px;"></div>
+    </div>
+  </section>
+  <div style="padding: 50px;"></div>
 
-     <section>
-      <div class="contaner">
+  <section>
+    <div class="contaner">
+      <div>
         <div>
-          <div>
-            <a class="flex" href=""><em style="color: #EFA359; font-family: sans-serif;">ОФИС </em> ПРОДАЖ</a>
-          </div>
-          <div style="padding: 20px;"></div>
-          <div class="wrapper_section">
-            <div class="htmll">
-             <div class="alicod">
+          <a class="flex" href=""><em style="color: #EFA359; font-family: sans-serif;">ОФИС </em> ПРОДАЖ</a>
+        </div>
+        <div style="padding: 20px;"></div>
+        <div class="wrapper_section">
+          <div class="htmll">
+            <div class="alicod">
               <div style="text-align: center; margin-top: 30px;">
                 <a class="hre" href="">Центральный офис</a>
               </div>
               <div style=" text-align: center; margin-top: 5px;">
                 <div style="text-align: center;"> <a class="hrl" href=""> вы можете обратиться к нашим </a></div>
-                 <a class="hrl" href=""> менеджерам по любому вопросу</a>
+                <a class="hrl" href=""> менеджерам по любому вопросу</a>
               </div>
               <div style="padding: 15px;"></div>
               <div style=" text-align: center; margin-top: 5px; ">
-                <div style="justify-content: center; display: flex;"> <img src="/assets/img/svg/ph_map-pin-light.png" alt=""> <p style="font-size: 20px;">г.Казань, ул.Яркая 31 Б</p></div>
-              </div>
-              
-              <div style="padding: 15px;"></div>
-              <div style=" text-align: center; margin-top: 5px; ">
-                <div style="justify-content: center; display: flex;"> <img src="/assets/img/svg/ph_clock-light.png" alt=""> <p style="font-size: 20px; margin-top: 9px;">Пн-Сб: с 9:00 до 18:00</p></div>
+                <div style="justify-content: center; display: flex;"> <img src="/assets/img/svg/ph_map-pin-light.png"
+                    alt="">
+                  <p style="font-size: 20px;">г.Казань, ул.Яркая 31 Б</p>
+                </div>
               </div>
 
               <div style="padding: 15px;"></div>
               <div style=" text-align: center; margin-top: 5px; ">
-                <div style="justify-content: center; display: flex;"> <img src="/assets/img/svg/ph_phone-light.png" alt=""> <p style="font-size: 20px;  margin-top: 9px;">+7 (962) 555-25-25</p></div>
+                <div style="justify-content: center; display: flex;"> <img src="/assets/img/svg/ph_clock-light.png"
+                    alt="">
+                  <p style="font-size: 20px; margin-top: 9px;">Пн-Сб: с 9:00 до 18:00</p>
+                </div>
               </div>
 
               <div style="padding: 15px;"></div>
               <div style=" text-align: center; margin-top: 5px; ">
-                <div style="justify-content: center; display: flex;"> <button class="bars">Проложить маршрут</button></div>
+                <div style="justify-content: center; display: flex;"> <img src="/assets/img/svg/ph_phone-light.png"
+                    alt="">
+                  <p style="font-size: 20px;  margin-top: 9px;">+7 (962) 555-25-25</p>
+                </div>
               </div>
-             </div>
+
+              <div style="padding: 15px;"></div>
+              <div style=" text-align: center; margin-top: 5px; ">
+                <div style="justify-content: center; display: flex;"> <button class="bars">Проложить маршрут</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-     </section>
+    </div>
+  </section>
 
-      <footer class="about_footer">
-      <div class="about_container footer-row">
-        <div class="foot-info">
-          <h2>О компании</h4>
+  <footer class="about_footer">
+    <div class="about_container footer-row">
+      <div class="foot-info">
+        <h2>О компании</h4>
           <hr class="footer_hr" />
           <a href="">Главная</a>
           <a href="">Наша команда </a>
@@ -309,34 +281,35 @@
           <a href="">Отзывы</a>
           <a href="">Новости</a>
           <a href="">Контакты</a>
-        </div>
-        <div class="foot-info">
-          <h2>Проекты</h4>
+      </div>
+      <div class="foot-info">
+        <h2>Проекты</h4>
           <hr class="footer_hr" />
           <a href="">Изумрудный Village</a>
           <a href="">IQ-CLUB</a>
-        </div>
-        <div class="foot-info">
-          <h2>Ипотека</h4>
+      </div>
+      <div class="foot-info">
+        <h2>Ипотека</h4>
           <hr class="footer_hr" />
           <a href="">Военная ипотека</a>
           <a href="">Господдержка</a>
-        </div>
-        <div class="footer-social">
-            <img src="/assets/img/svg/footer-logo.svg" alt="" />
-            <div class="social-icon">
-              <a href=""> <i class="fa-brands fa-youtube"></i></a>
-              <a href=""> <i class="fa-brands fa-vk"></i></a>
-              <a href=""> <i class="fa-brands fa-linkedin"></i></a>
-              <a href=""> <i class="fa-brands fa-whatsapp"></i> </a>
-          </div>
+      </div>
+      <div class="footer-social">
+        <img src="/assets/img/svg/footer-logo.svg" alt="" />
+        <div class="social-icon">
+          <a href=""> <i class="fa-brands fa-youtube"></i></a>
+          <a href=""> <i class="fa-brands fa-vk"></i></a>
+          <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+          <a href=""> <i class="fa-brands fa-whatsapp"></i> </a>
         </div>
       </div>
-      <div class="footer-about">
-          <a href="">Политика конфиденциальности</a>
-          <a href="" class="email"> <i class="fa-regular fa-envelope"></i> windom.kazan@gmail.com</a>
-      </div>
-    </footer>
-    
-  </body>
+    </div>
+    <div class="footer-about">
+      <a href="">Политика конфиденциальности</a>
+      <a href="" class="email"> <i class="fa-regular fa-envelope"></i> windom.kazan@gmail.com</a>
+    </div>
+  </footer> 
+
+</body>
+
 </html>
