@@ -129,6 +129,8 @@
 }
 .container {
   max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
 }
 header {
   position: absolute;
@@ -137,6 +139,7 @@ header {
   background-color: #ffffffb2;
   width: 100%;
 }
+
 .section1__img {
   width: 100%;
   position: relative;
@@ -148,8 +151,8 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 35.2px;
-  bottom: 185px;
-  left: 100px;
+  bottom: 285px;
+  left: 200px;
   z-index: 2;
 }
 .section1__span1 {
@@ -157,8 +160,8 @@ header {
   font-size: 118.5px;
   color: #efa35a;
   position: absolute;
-  left: 90px;
-  bottom: 20px;
+  left: 190px;
+  bottom: 120px;
   z-index: 2;
 }
 .section1__span2 {
@@ -167,7 +170,7 @@ header {
   color: white;
   position: absolute;
   left: 1060px;
-  bottom: 20px;
+  bottom: 120px;
   z-index: 2;
 }
 .section2 {
@@ -402,7 +405,51 @@ header {
   justify-content: center;
   gap: 15px;
 }
+.section6 {
+  padding: 130px 0 130px 60px;
+}
+.s6-title {
+  font-weight: 600;
+  font-size: 46px;
+  margin-bottom: 25px;
+}
 
+.s6-title span {
+  color: #f2a04a;
+  font-weight: bold;
+}
+
+.s6-title b {
+  font-style: italic;
+}
+
+.s6-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.s6-card {
+  width: 474px;
+  height: 656px;
+}
+
+.s6-card img {
+  width: 474px;
+  height: 559px;
+  object-fit: cover;
+}
+
+.s6-card h3 {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.s6-card p {
+  font-weight: 300;
+  color: gray;
+  font-size: 24px;
+}
 .section7 {
   padding: 0px 60px;
 }
@@ -713,6 +760,175 @@ header {
   border: 1px solid #efa35a;
   padding: 15px 30px;
   margin: 1px auto;
+}
+
+/* --- TABLET: max-width 846px --- */
+@media (max-width: 846px) {
+  .section1__p {
+    font-size: 24px;
+    bottom: 140px;
+    left: 40px;
+  }
+  .section1span1,
+  .section1span2 {
+    font-size: 70px;
+    bottom: 40px;
+  }
+  .section1__span1 {
+    left: 40px;
+  }
+  .section1__span2 {
+    left: auto;
+    right: 40px;
+  }
+
+  .section2__details {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section4__texts-number {
+    gap: 50px;
+  }
+  .section4__details {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .s6-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s6-card {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .section7__down {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section8__details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section8detailspart2 {
+    margin-top: 30px;
+  }
+
+  .section10__body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* --- MOBILE: max-width 380px --- */
+@media (max-width: 380px) {
+  /* Header adjustments */
+  .navbar-info {
+    display: none;
+  }
+  .navbar-icon {
+    display: block;
+  }
+
+  /* Section 1 Hero */
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .section1__p {
+    position: static;
+    color: #000;
+    font-size: 16px;
+    padding: 20px 0 0 20px;
+  }
+  .section1span1,
+  .section1span2 {
+    position: static;
+    font-size: 36px;
+    display: block;
+    padding-left: 20px;
+    line-height: 1.2;
+  }
+
+  /* Section 4 Transportation */
+  .section4__texts-number {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .section4detailsbox {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Section 5 Gallery */
+  .section5__imgs {
+    flex-direction: column;
+  }
+  .section5__imgs img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .section5imgsbox {
+    position: static;
+    width: 100%;
+    padding: 15px;
+    background: #f4f4f4;
+  }
+
+  /* Section 7 Pricing */
+  .section7part1details {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section7part1btn {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  /* Section 8 Floor Plans */
+  .section8detailspart1-btns {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section8detailspart1-btns button {
+    padding: 10px;
+    width: 48%;
+  }
+  .section8detailspart2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Section 9 Call to Action */
+  .section9 {
+    padding: 30px 15px;
+  }
+  .section9__btns {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section9btn1,
+  .section9btn2 {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  /* Section 11 Contact Office */
+  .section11detailsbox {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .section11detailsimg {
+    margin-top: 20px;
+  }
 }
 
 .about_footer {

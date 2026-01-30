@@ -11,17 +11,17 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .eee {
-  border: 1px solid #e4e4e4;
+  border: 1px solid #E4E4E4;
   padding: 20px 40px;
   background-color: transparent;
 }
 
 .eee:hover {
-  background-color: #efa35a;
+  background-color: #EFA35A;
   color: white;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -39,7 +39,7 @@
   display: -ms-flexbox;
   display: flex;
   gap: 44px;
-  border: 1px solid #efa35a;
+  border: 1px solid #EFA35A;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -50,7 +50,7 @@
   display: flex;
   margin-top: 50px;
   gap: 44px;
-  border: 1px solid #efa35a;
+  border: 1px solid #EFA35A;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -61,7 +61,7 @@
   display: flex;
   margin-top: 50px;
   gap: 44px;
-  border: 1px solid #efa35a;
+  border: 1px solid #EFA35A;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -72,7 +72,7 @@
   display: flex;
   margin-top: 50px;
   gap: 44px;
-  border: 1px solid #efa35a;
+  border: 1px solid #EFA35A;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -80,17 +80,17 @@
 button {
   padding: 20px 40px;
   font-size: 24px;
-  background-color: #fdfdfd;
-  border: 1px solid #e4e4e4;
+  background-color: #FDFDFD;
+  border: 1px solid #E4E4E4;
 }
 
 button:hover {
-  border-color: #efa35a;
+  border-color: #EFA35A;
   font-weight: 600;
 }
 
 .katta1 {
-  color: #6e6e6f;
+  color: #6E6E6F;
   font-size: 24px;
 }
 

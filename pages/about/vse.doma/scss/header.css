@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .about_footer {
@@ -13,9 +14,13 @@
 }
 
 .footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 60px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .foot-info a:hover {
@@ -24,7 +29,7 @@
 
 .foot-info a {
   text-decoration: none;
-  color: rgb(176, 174, 174);
+  color: #b0aeae;
   font-size: 20px;
 }
 
@@ -36,15 +41,24 @@
 
 .foot-info {
   width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 15px;
   margin-top: 15px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social-icon a {
@@ -57,9 +71,16 @@
 }
 
 .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer a {
@@ -70,8 +91,12 @@ footer a {
 
 .footer-about {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 h2 {
@@ -96,12 +121,19 @@ h2 {
     height: 142px;
   }
 }
+
 @media screen and (max-width: 380px) {
   .foot-info {
     display: none;
   }
   .footer-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
-}/*# sourceMappingURL=header.css.map */
+}
+/*# sourceMappingURL=header.css.map */

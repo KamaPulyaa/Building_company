@@ -6,6 +6,7 @@
   margin-left: 100px;
   font-size: 46px;
 }
+
 .main-chid span {
   color: #EFA35A;
   margin-left: 10px;
@@ -134,6 +135,7 @@
   width: 1000px;
   margin-left: 100px;
 }
+
 .container_wrapper p {
   margin-top: 50px;
   display: inline;
@@ -168,4 +170,5 @@
   margin-left: 940px;
   width: 750px;
   height: 662px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
