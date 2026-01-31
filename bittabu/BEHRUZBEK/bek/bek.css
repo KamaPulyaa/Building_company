@@ -1,0 +1,29 @@
+/* Konteyner sozlamalari */
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 ta teng ustun */
+  grid-auto-rows: minmax(80px, auto);    /* Qatorlar balandligi */
+  gap: 10px;                             /* Bloklar orasidagi masofa */
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Umumiy blok stillari */
+.item {
+  border: 2px solid blue;
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* Maxsus o'lchamdagi bloklar (rasmdagidek) */
+.item-1 { grid-row: span 2; }          /* Birinchi tikka blok */
+.item-2 { grid-column: span 2; }       /* Yuqoridagi uzun yotiq blok */
+.item-3 { grid-row: span 2; }          /* O'ng tarafdagi tikka blok */
+
+.item-7 { grid-row: span 2; }          /* O'rtadagi tikka blok */
+.item-8 { grid-column: span 2; }       /* Chapdagi o'rtacha yotiq blok */
+
+.item-14 { grid-column: span 3; }      /* Pastdagi eng uzun yotiq blok */
+.item-17 { grid-row: span 2; }         /* Pastki o'ng burchakdagi tikka */
+
+/* Qolganlari avtomatik ravishda bo'sh joylarni to'ldiradi */

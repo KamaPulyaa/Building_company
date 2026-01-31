@@ -1,0 +1,70 @@
+
+header {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 1.25rem;
+  }
+  
+  header .btn {
+    margin: 10px;
+  }
+  
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  section .col-md-3 i {
+    color: orange;
+    margin-bottom: 15px;
+  }
+  
+  
+  footer {
+    background: #222;
+    color: #aaa;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+  .btn-warning {
+    background-color: orange;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: darkorange;
+  }
+  
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  }

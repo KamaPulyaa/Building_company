@@ -1,0 +1,25 @@
+div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+div::after {
+  content: " ";
+  right: 150px;
+  background-color: rgb(0, 38, 255);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+}
+
+div ::before{
+  background-color: aqua;
+  content: "dsf";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0px;
+}

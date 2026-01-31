@@ -1,0 +1,114 @@
+:root{
+  --blue: #70d1f0;
+  --blue-deep: #28b0e8;
+  --white: #ffffff;
+  --shadow: 0 6px 18px rgba(23,60,91,0.1);
+  --radius: 10px;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body{
+  margin:0;
+  background: linear-gradient(#ffffff 0 8%, 8% 60%, #ffffff 60% 100%);
+  display:flex;
+  justify-content:center;
+  padding:40px 10px;
+}
+
+.stage{
+  display:flex;
+  gap:20px;
+}
+
+
+.menu-card{
+  width:240px;
+  background:var(--white);
+  padding:12px;
+  box-shadow:var(--shadow);
+  border-radius:var(--radius);
+}
+
+.menu-item{
+  padding:12px;
+  border-radius:8px;
+  cursor:pointer;
+  margin-bottom:6px;
+}
+
+.menu-item:hover{
+  background:#f0f8ff;
+}
+
+.menu-item.active{
+  background:var(--blue-deep);
+  color:white;
+}
+
+/* ICON BAR */
+.icon-bar{
+  width:60px;
+  background:var(--white);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  align-items:center;
+}
+
+.icon-btn{
+  width:42px;
+  height:42px;
+  border-radius:8px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  color:var(--blue-deep);
+}
+
+.icon-btn.active{
+  background:var(--blue-deep);
+  color:white;
+}
+
+/* RIGHT CARD */
+.right-card{
+  width:280px;
+  background:white;
+  padding:14px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+
+.select-btn{
+  padding:12px;
+  border:1px solid #e7f5fc;
+  border-radius:8px;
+  display:flex;
+  justify-content:space-between;
+  cursor:pointer;
+}
+
+.action-list{
+  margin-top:10px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.action{
+  padding:10px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.action:hover{
+  background:#eaf6ff;
+}
+
+.action.delete{
+  color:#d14343;
+}

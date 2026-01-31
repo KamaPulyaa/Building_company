@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.profile {
+    font-size: 55px;
+    color: rgb(96, 96, 238);
+    text-align: center;
+    padding: 35px 0 0 0;
+}
+
+.job {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+
+hr {
+    width: 1376px;
+    margin: 15px 0 0 285px;
+
+}
+
+.box {
+    display: inline-block;
+    width: 33.3%;
+    float: left;
+}
+
+.first-p {
+    width: 200px;
+    line-height: 30px;
+}
+
+.main {
+    margin: 90px 0 0 0;
+    line-height: 25px;
+}
+
+.univer {
+    padding: 0 0 0 150px;
+}
+
+.image {
+    border-radius: 50%;
+    border: 10px solid coral;
+    margin-left: 160px;
+}
+
+
+footer {
+    clear: both;
+    padding: 100px;
+}
+

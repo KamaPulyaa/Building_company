@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+
+
+  font-weight: bold;
+  position: none;
+  padding-left: 25px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0 0 0 5px;
+  font-size: 15px;
+
+}
+
+
+a:hover {
+  background-color: aqua;
+  color: aliceblue;
+  border: 10px solid aqua;
+
+}
+
+
+input {
+
+  margin: 0 0 0 5px;
+  border-radius: 30px;
+}
+
+.j {
+  border-radius: 20px;
+  margin: 20px 0 0 50px;
+  background-color: aquamarine;
+  padding: 15px 3px;
+  border: none;
+  width: 190px
+}
+
+.R {
+  position: fixed;
+  margin: 2px 0 0 0;
+  background-color: rgba(0, 0, 0, 0.571);
+  color: rgb(255, 255, 255);
+  padding: 10px 0px;
+  text-decoration: none;
+  border-radius: 0px;
+}
+
+a.jac {
+  margin: 0px 0px;
+  color: rgb(0, 0, 0);
+  border-radius: 70px;
+
+}
+
+.bag {
+  margin: 60px 0 100px 0;
+  font-size: 20px;
+  height: 100%;
+  width: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgba(117, 117, 117, 0.74);
+}

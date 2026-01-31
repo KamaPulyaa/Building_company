@@ -1,0 +1,139 @@
+*{
+    background-color: rgb(217, 217, 216);
+}
+.car >button{
+    font-size: 50px;
+    padding: 20px 30px;
+    border: none;
+    width: 830px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+   
+}
+.car{
+    margin: 100px 0 0 200px;
+    font-size: 80px;
+}
+.car>p{
+    font-size: 40px;
+    margin: 0 0 0   
+}
+
+.h10{
+    width: 820px;
+    margin: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 315px;
+    background-color: rgb(255, 255, 255);
+}
+.h10>img{
+    position: relative;
+    margin-top: -300px;
+    margin-left: -210px;
+    width: 310%;
+    margin-bottom: 100px;
+}
+
+.h10>h1{
+    width: 1000px;
+}
+
+.f{
+    
+    position: relative;
+    margin-top: -300px;
+    margin-left: -210px;
+    width: 310%;
+    margin-bottom: 100px;
+    padding: 25px 30px;
+    border: none;
+    width: 230px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.h20{
+    width: 820px;
+    margin: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 315px;
+    background-color: rgb(255, 255, 255);
+}
+.h20>img{
+    position: relative;
+    margin-top: -300px;
+    margin-left: -210px;
+    width: 310%;
+    margin-bottom: 100px;
+}
+
+.h30{
+    width: 820px;
+    margin: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 315px;
+    background-color: rgb(255, 255, 255);
+}
+.h30>img{
+    position: relative;
+    margin-top: -300px;
+    margin-left: -210px;
+    width: 310%;
+    margin-bottom: 100px;
+}
+
+.h40{
+    width: 820px;
+    margin: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 315px;
+    background-color: rgb(255, 255, 255);
+}
+.h40>img{
+    position: relative;
+    margin-top: -300px;
+    margin-left: -210px;
+    width: 310%;
+    margin-bottom: 100px;
+}
+
+
+.h50{
+    width: 820px;
+    margin: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 315px;
+    background-color: rgb(255, 255, 255);
+}
+.h50>img{
+    position: relative;
+    margin-top: -300px;
+    margin-left: -210px;
+    width: 310%;
+    margin-bottom: 100px;
+}
+.for{
+     position: relative;
+     font-size: 30px;
+
+    border: none;
+    width: px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.vv{
+    position: relative;
+     font-size: 30px;
+
+    border: none;
+    width: px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}

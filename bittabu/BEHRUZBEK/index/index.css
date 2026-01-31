@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(istockphoto-1183532123-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url("https://cdn.pixabay.com/photo/2025/05/23/06/35/sparrow-9617024_960_720.jpg");
+}

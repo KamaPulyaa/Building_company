@@ -1,0 +1,139 @@
+.body{
+    background-color: rgb(0, 0, 0);
+}
+.capslock {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.var {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.let {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.int {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.def {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.for {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.if {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.else {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.try {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.run {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.get {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.set {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.put {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.add {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+
+.sub {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.sum {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.log {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.log {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.map {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.key {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.arg {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.env {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.API {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.lib {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.mod {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.cmd {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}
+.dev {
+    padding: 30px 30px;
+    border: none;
+    width: 100px
+}

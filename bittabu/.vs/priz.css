@@ -1,0 +1,158 @@
+* {
+    
+    background-color: #f4f5f7;
+    margin: 0;
+    padding:    0;
+}
+
+.barchasi{
+    gap: 40px;
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+.scool{
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+.rasm{
+    padding-left: 620px;
+}
+
+.bar{
+    padding-left: 15px;
+}
+
+.hammasi{
+    display: flex;
+ 
+}
+
+.mers{
+    padding-left: 45px;
+}
+
+.wolf{
+    color: #0079bf
+    ;
+    padding-top: 10px;
+    padding-left: 760px;
+}
+
+.imgee{
+    padding-top: 10px;
+    padding-left: 10px;
+    gap: 20px;
+}
+
+
+.ruck{
+    padding-left: 440px;
+    padding-top: 10px;
+}
+
+
+.ruck>input{
+    
+    border-radius: 30px;
+}
+
+.hammasi>span{
+    padding-top: 10px;
+    padding-left: 20px;
+    gap: 20px;
+     box-shadow: 0px 0px 0px 0px rgba(139, 139, 139, 0.627);
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    overflow-x: auto;
+}
+
+.column {
+    background-color: #ebecf0;
+    border-radius: 30px;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.165);
+}
+
+.column-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-gradient {
+    height: 20px;
+    height: 150px;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.label {
+    display: block;
+    width: 40px;
+    height: 6px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.green { background-color: #61bd4f; }
+.red { background-color: #eb5a46; }
+.blue { background-color: #0079bf; }
+
+.card-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #172b4d;
+}
+
+.card-footer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #5e6c84;
+    display: flex;
+    gap: 10px;
+}
+
+.add-card {
+    width: 100%;
+    padding: 8px;
+    background: none;
+    border: none;
+    text-align: left;
+    color: #5e6c84;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.add-card:hover {
+    background-color: #dadbe2;
+    color: #172b4d;
+}

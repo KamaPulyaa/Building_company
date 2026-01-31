@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.fvan {
+    position: fixed;
+    background-color: #494949;
+
+}
+
+.nav ul {
+    font-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav ul li a {
+    text-align: none;
+    color: #000;
+    font-size: 15px;
+
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    background-image: url(istockphoto-1183532123-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    background-size: 100% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.overlay h2 {
+    max-width: 600px;
+    margin-bottom: 20px;
+    line-height: 1, 4;
+    font-size: 22px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid wheat;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 4px;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+.nav {
+    text-align: center;
+}
+
+.li {
+
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+    position: fixed;
+    position: sticky;
+
+
+}
+
+.lu {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+    position: fixed;
+
+}
+
+.enter {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+
+
+}
+
+.enterr {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+
+
+}
+
+.enterrr {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+
+
+}
+
+.enterrrr {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+
+
+}
+
+.divv {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+
+
+}
+
+.esc {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+
+
+}
+
+.stories {
+    padding: 5px 30px;
+    border: none;
+    width: 190px;
+}
+
+.car {
+    margin-top: 480px;
+    width: 200px;
+    border: none;
+    position: absolute;
+    bottom: 320px;
+    left: 30px;
+    width: 200px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0, 2);
+    padding: 10px 3px;
+    border: none;
+    width: 190px
+}
+
+.rise {
+    display: flex;
+
+    margin-right: 400px;
+    margin-top: 800px;
+    width: 2000px;
+    border: none;
+    position: absolute;
+    bottom: 320px;
+    width: 200px;
+    border: none;
+    background-image: url(iphone-4507288_1280.jpg);
+    padding: 10px 3px;
+    border: none;
+    width: 190px;
+    height: 600px;
+}
+
+.stay img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.stay img:hover {
+    transform: scale(1.05);
+}
+
+.stay {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-image: url(istockphoto-1716603400-2048x2048.jpg);
+    padding: 300px;
+}
+
+.iii {
+    text-align: right;
+}
+
+.iii {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.ssv {
+    font-size: 70px;
+}

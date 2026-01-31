@@ -1,0 +1,92 @@
+body{
+  background-image: url("https://wallpapers.com/images/hd/a-soothing-rainy-day-scenery-012ixu63t4urhyuf.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+  color: white;
+  /* justify-content: center; */
+  margin-left: 950px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-top: 300px;
+  font-size: 130px;
+}
+.gm{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+margin-left: 20px;
+}
+.gm:hover{
+text-decoration: underline;
+}
+.im{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+.im:hover{
+text-decoration: underline;
+}
+.tabla{
+color: white;
+/* width: 30px;
+height: 30px; */
+}
+.tabla:hover{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: aqua;
+}
+.but{
+border-radius: 50%;
+border: 0;
+outline: 0;
+width: 20px;
+height: 20px;
+color: white;
+background-color: brown;
+}
+.but:hover{    
+  border: 1px solid white;
+  
+}
+.important{
+  justify-content: end;
+  margin: 20px;
+  margin-left: 1700px;
+}
+.innn{
+  margin-left: 1000px;
+  background-color: white;
+  width: 300px;
+}
+.innn > input{
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 220px;
+  padding: 12px 16px;
+  border-radius: 56px;
+}
+input{
+  
+}
+.youtube{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.you{
+  padding-top: 100px;
+  padding-left: 50px;
+      width: 50px;
+  height: 50px;
+  
+}
+
+.g{
+  border-radius: 100%;
+}

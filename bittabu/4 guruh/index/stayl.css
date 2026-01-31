@@ -1,0 +1,296 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bek{
+    color: #000000;
+    top: 28.41px;
+    padding-left: 60.13px;
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+}
+
+.kardinal {
+    display: flex;
+    color: #a9ddfa;
+    top: 28.41px;
+    padding-left: 55.13px;
+}
+
+.ultra {
+    padding-left: 53.78px;
+    padding-top: 250.49px;
+   
+}
+
+.yakudza {
+    padding-left: 30px;
+}
+
+.riza {
+    padding-left: 5.10px;
+}
+
+.notshaxa {
+    display: flex;
+}
+
+.zifler {
+    display: flex;
+    padding-left: 70px;
+    color: #0194E6;
+}
+
+
+.youtubebek {
+   
+    padding-left: 59px;
+    padding-top: 20px;
+}
+
+.kankulator {
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.li{
+    padding-left: 100px;
+}
+
+.shaxa {
+    padding-left: 7.8px;
+    color: #0194E6;
+}
+
+
+.font {
+    padding-left: 100px;
+    
+}
+
+.rek {
+     
+}
+
+.bekh {
+    padding-top: 30px;
+    width: 518.15px;
+    height: 312.61px;
+
+    background-color: #aedffc;
+    border-radius: 30px;
+    
+
+}
+
+.bekh>h1{
+    padding-left: 100px;
+}
+
+.sher {
+    background-color: #b2e3ff;
+    border-radius: 30px;
+    width: 662.98px;
+    height: 
+    190.1px;
+    margin-left: -15px;
+}
+
+.sher>h3 {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.kar {
+    gap: 10px
+    ;
+    width: 
+    432.48px;
+    height: 
+    377.82px;
+    background-color: #0194E6;
+    border-radius: 30px;
+  
+}
+
+.tar{
+    padding-left: 60px;
+    color: aliceblue;
+    font-size: 30px;
+    width: 
+    
+661px;
+    height: 
+    377.82px;
+    background-color: #43bbda;
+    border-radius: 30px;
+    
+}
+
+.ari{
+    margin: -270px;
+    display: flex;
+   gap: 5px;
+    margin-left: 170px;
+}
+
+
+
+.tigerr{
+ 
+    padding-left: 50px;
+    color: aliceblue;
+    font-size: 35px;
+    width:     
+    661px;
+    height: 
+    377.82px;
+    background-color: #0194E6;
+    border-radius: 30px;
+}
+
+.qor{
+    gap: 5px;
+    display: flex;
+    margin-top: 275px;
+    margin-left: 200px;
+   
+    
+}
+
+.sherikkk {
+    
+    width: 433.78px;
+    height: 372.45px;
+    border-radius: 30px;
+    background-color: #0194E6;
+}
+
+.jek {
+    color: aliceblue;
+    padding-left: 100px;
+}
+
+.lil{
+    color: #0194E6;
+}
+
+
+.qish{
+    padding-top: 5px;
+    margin: auto 0;
+    padding-left: 200px;
+    gap: 5px;
+    display: flex;
+    
+   
+}
+
+.shamol{
+    display: flex;
+    padding-left: 20px;
+    border-radius: 30px;
+    width: 
+    669.15px;
+    height: 147.46px;
+  background-color: #00a2ff;
+}
+
+.shamol>h2{
+    gap: 20px
+    ;
+    font-size: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+.buron{
+    gap: 20px
+    ;
+    display: flex;
+    border-radius: 30px;
+    width: 
+    669.15px;
+    height: 147.46px;
+  background-color: #a1d9fa;
+}
+
+.buron>img{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.buron>h2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.kar>h1{
+    padding-left: 10px;
+    color: rgba(151, 204, 250, 0.781);
+    font-size: 100px;
+    padding-top: 80px;
+    
+}
+
+
+.jarchi{
+    font-size: 40px;
+    gap: 10px;
+    display: flex;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.karchi{
+    color: aliceblue;
+}
+
+.col {
+    font-size: 90px;
+    color: #46d1fc;
+}
+
+.bekaken{
+    font-size: 90px;
+}
+
+.best{
+    font-size: 60px;
+}
+
+.sheykh{
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+.carol{
+    color: aliceblue;
+    font-size: 90px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.tashmi{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+.spam{
+    background-color: #a1d9fa;
+    width: 5000px;
+    height: 500px;
+    max-width: 5000px;
+    padding-top: 100px;
+}

@@ -1,0 +1,393 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+    padding-left: ;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    
+    gap: 40px;
+}
+.navbar{
+    display: flex;
+    padding-top: 20px;
+
+}
+.btnnavbar{
+    background-image: linear-gradient(to right, #C89AFC, #7C6AFA);
+    width: 178px;
+    height: 40px;
+    border-radius: 50px;
+    border-color: transparent;
+    
+    color: white;
+}
+.textfloat{
+    color: white;
+    font-size: 55px;
+    margin-top: 190px;
+    
+}
+.numberh3{
+    color: white;
+    font-size: 36px;
+
+   
+}
+.footer{
+    position: relative;
+
+}
+.numberp{
+    color: gray;
+  
+    font-size: 16px;
+}
+.number1{
+    background-color: #121212;
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 112px;
+}
+.number2{
+    background-color: #121212;
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+}
+.number3{
+    background-color: #121212;
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+}
+.number4{
+    background-color: #121212;
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+}
+.contentnum{
+    display: flex;
+    gap: 30px;
+    
+    margin-top: 50px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  background: #0e0e0e;
+  padding: 20px 30px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  margin-top: 80px;
+
+
+}
+
+
+.hero {
+  min-height: 100vh;
+  background-image: url(main-screen__bgc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+footer{
+  margin-top: -250px;
+}
+.hero {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,.2)),
+    url(main-screen__bgc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero {
+  height: 800px;
+  background: url(main-screen__bgc.png) center top / contain no-repeat;
+}
+
+
+body {
+  min-height: 100%;
+  
+}
+
+
+  .footer {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  background: #0e0e0e;
+  padding: 20px 30px;
+  color: #fff;
+  width: 100%;
+  padding-left: 260px;
+}
+
+
+.btn {
+  background: linear-gradient(to right, #ff4d4d, #451046);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.stat {
+  display: flex;
+  gap: 6px;
+}
+
+.label {
+  color: #bdbdbd;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.earn {
+  flex: 1;
+  max-width: 450px;
+}
+
+.earn-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.progress {
+  width: 100%;
+  height: 6px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(to right, #a100ff, #ff3d81);
+}
+
+
+.progress-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+}
+.navbarabout{
+  display: flex;
+  gap: 139px;
+  
+  
+}
+.abouth1{
+  font-size: 48px;
+}
+.aboutp{
+  font-size: 16px;
+  margin-top: 45px;
+}
+.about{
+  background-image: url(https://img.freepik.com/premium-vector/blank-square-background-checkered-outline-pattern_636138-1992.jpg);
+  padding: 150px;
+  color: white;
+}
+.about2{
+  margin-top: 150px;
+}
+.about3h1{
+  font-size: 48px;
+  text-align: center;
+
+> Gulnoza Nurmatova:
+}
+.about3{
+  margin-top: 150px;
+  font-size: 24px;
+}
+.icon1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 120px;
+}
+.icon1p{
+  font-size: 16px;
+  
+  margin-top: 30px;
+}
+.icon1img{
+  margin-bottom: 60px;
+  
+}
+.iconwrapper{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.icon2{
+  margin-top: 128px;
+}
+.icon3{
+  margin-top: 128px;
+}
+.about4h3{
+  font-size: 48px;
+}
+.yonmayon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about4{
+  margin-top: 150px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 85px;
+}
+.msi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #000;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  border-right: 1px solid rgba(226, 225, 225, 0.653);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.749);
+}
+
+
+.item:nth-child(4n) {
+  border-right: none;
+}
+
+.item:nth-last-child(-n+4) {
+  border-bottom: none;
+}
+
+.item img {
+  height: 40px;
+}
+.about5{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about5h1{
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about5p{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.about5p{
+  color: gray;
+}
+.h41{
+  font-size: 18px;
+}
+.ptext1{
+  font-size: 14px;
+  color: gray;
+}
+.div1{
+  margin-top: 91px;
+}
+body {
+
+  background: #0b0b0b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr 4px 1fr;
+  gap: 40px;
+  padding: 60px;
+  background-image: linear-gradient(#1a1a1a 1px, transparent 1px),
+                    linear-gradient(90deg, #1a1a1a 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.line {
+  background: linear-gradient(to bottom, #b57bff, #6f3cff);
+  border-radius: 2px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.week {
+  display: block;
+  color: #7a7a7a;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 18px;
+  
+}
+.item{
+  display: flex;
+  flex-direction: column;
+}

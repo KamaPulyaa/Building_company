@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: o;
+}
+
+body {
+  counter-reset: rich;
+}
+
+div {
+  counter-reset: rich;
+}
+
+div::before {
+  counter-increment: rich;
+  content: "sabzi" counter(rich);
+
+ 
+}
+
+div::before {
+  counter-increment: rich;
+  content: counter(rich) "." counter(rich);
+}

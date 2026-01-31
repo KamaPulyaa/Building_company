@@ -1,0 +1,82 @@
+  .var{
+         
+    padding: 10px 3px;
+    border: none;
+    width: 190px
+}
+.let {
+    padding: 10px 3px;
+    border: none;
+    width: 190px
+}
+.int {
+    padding: 10px 3px;
+    border: none;
+    width: 190px
+}
+.enter{
+    font-size: 100px;
+}
+.block{
+    font-size: 100px;
+}
+.def {
+    padding: 10px 30px;
+    border: none;
+    width: 150px
+}
+.for {
+    padding: 10px 30px;
+    border: none;
+    width: 190px
+}
+.if {
+    padding: 10px 30px;
+    border: none;
+    width: 190px
+}
+.else {
+    padding: 10px 30px;
+    border: none;
+    width: 190px
+}
+.blog {
+    padding: 10px 30px;
+    border: none;
+    width: 190px
+}
+.urn {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}
+.get {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}
+.put {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}
+.add {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}
+.sub {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}
+.sum {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}
+.set {
+    padding: 5px 30px;
+    border: none;
+    width: 190px
+}

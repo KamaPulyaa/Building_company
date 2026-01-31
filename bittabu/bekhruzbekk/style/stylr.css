@@ -1,0 +1,95 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#header {
+    background-color: #35424a;
+    border-bottom: 4px solid coral;
+}
+
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.contaner {
+    width: 70%;
+    margin: auto;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding:  25px 10px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+
+#banner {
+    background-image: url("../img/sky-5961642_1280.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center -500px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+}
+
+
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left {
+    float: left;
+}
+
+
+#newsletter .right {
+    float: right;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+}

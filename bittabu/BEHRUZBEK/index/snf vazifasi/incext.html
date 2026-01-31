@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Drop Menu</title>
+    <link rel="stylesheet" href="indect.css">
+</head>
+<body>
+
+<div class="stage">
+
+    <!-- LEFT MENU -->
+    <div class="menu-card">
+        <div class="menu-item">Mail</div>
+        <div class="menu-item">Calendar</div>
+        <div class="menu-item active">Notes</div>
+        <div class="menu-item">Library</div>
+        <div class="menu-item">Contacts</div>
+        <div class="menu-item">Resources</div>
+        <div class="menu-item">Documents</div>
+    </div>
+
+    <!-- MID ICONS -->
+    <div class="icon-bar">
+        <div class="icon-btn">👤</div>
+        <div class="icon-btn">📊</div>
+        <div class="icon-btn">📅</div>
+        <div class="icon-btn active">✉️</div>
+        <div class="icon-btn">🎁</div>
+        <div class="icon-btn">🕒</div>
+        <div class="icon-btn">🔔</div>
+    </div>
+
+    <!-- RIGHT card -->
+    <div class="right-card">
+        <div class="select-row">
+            <div class="select-btn" id="dropdownBtn">
+                <span id="selectedText">Document</span>
+                ▼
+            </div>
+        </div>
+
+        <div class="dropdown-list" id="dropdownList">
+            <div class="drop-item">Open</div>
+            <div class="drop-item">Download</div>
+            <div class="drop-item">Rename</div>
+            <div class="drop-item">Share</div>
+            <div class="drop-item">Move</div>
+            <div class="drop-item delete">Delete</div>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+  background-color: rgb(59, 59, 59);
+}
+.var{
+  padding: 1%;
+}
+
+.for{
+  padding-left: 100px;
+}
+
+.bar{
+  padding-left: 1%;
+}
+
+.qar{
+  padding-left: 1%;
+}
+
+.kar{
+  padding-left: 1%;
+}
+
+.mar{
+  padding-left: 1%;
+}
+
+.tar{
+  padding: 4%;
+  font-size: 1%;
+}
+
+.tir{
+  
+  padding: 16%; 
+  margin-left: 1%;
+}
+
+.H11{
+  color: aquamarine;
+}
+
+.r{
+  background-color: red;
+  padding: 10px 30px;
+  border: none;
+  width: 190px
+}
+
+.g{
+  background-color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  border: none;
+  width: 190px
+}
+
+.l{
+  color: rgb(22, 109, 73);
+  padding-left: 1%;
+}
+
+.p{
+  padding-left: 5%;
+}
+
+.j{
+  padding-left: 5%;
+}
+
+.W{
+  padding: 5px; 
+  margin-left: 1%;
+}
+
+.m{
+  
+  padding: 20%; 
+  margin-left: 14%;
+}
+
+.n{
+  background-color: rgb(36, 36, 124);
+  padding-left: -15%;
+}
+
+.k{
+  font-size: 22px;
+  background-color: rgb(6, 149, 109);
+}

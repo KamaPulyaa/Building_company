@@ -1,0 +1,19 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(216, 33, 33);
+    position: fixed;
+    top: 50px;
+    bottom: 50px;
+    right: 50%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.var {
+    position: relative;
+    left: 300px;
+    top: 110px;
+    font-size: 170px;
+    color: rgb(255, 255, 255);
+}
