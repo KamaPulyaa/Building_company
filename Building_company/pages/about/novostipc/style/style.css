@@ -1,0 +1,106 @@
+.n1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.eee {
+  border: 1px solid #E4E4E4;
+  padding: 20px 40px;
+  background-color: transparent;
+}
+
+.eee:hover {
+  background-color: #EFA35A;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.year {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 86px;
+}
+
+.Rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 44px;
+  border: 1px solid #EFA35A;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Rectangle2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  gap: 44px;
+  border: 1px solid #EFA35A;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Rectangle3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  gap: 44px;
+  border: 1px solid #EFA35A;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Rectangle4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  gap: 44px;
+  border: 1px solid #EFA35A;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #FDFDFD;
+  border: 1px solid #E4E4E4;
+}
+
+button:hover {
+  border-color: #EFA35A;
+  font-weight: 600;
+}
+
+.katta1 {
+  color: #6E6E6F;
+  font-size: 24px;
+}
+
+.btn123 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  padding-left: 300px;
+  padding-top: 50px;
+  padding-right: 300px;
+}
+/*# sourceMappingURL=style.css.map */

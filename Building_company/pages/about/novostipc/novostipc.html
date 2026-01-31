@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    user-select: none;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+.n1{
+    font-size:60px;
+    font-weight:500;
+    padding:100px 80px 40px;
+}
+.year{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding-bottom:80px;
+}
+
+.year span{
+    border:1px solid #E4E4E4;
+    padding:20px 40px;
+    cursor:pointer;
+}
+
+.year span:hover{
+    background:#EFA35A;
+    color:white;
+}
+.news-list{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    padding:0 80px;
+}
+
+.news-card{
+    display:flex;
+    gap:44px;
+    border:1px solid #EFA35A;
+}
+
+.news-card img{
+    width:50%;
+    object-fit:cover;
+}
+
+.news-text{
+    width:50%;
+    padding:70px 40px;
+}
+
+.news-text h2{
+    font-size:40px;
+    font-family:Georgia, serif;
+    font-weight:500;
+    line-height:1.3;
+}
+
+.news-text p{
+    font-size:27px;
+    margin-top:30px;
+    line-height:1.4;
+}
+
+.news-text a{
+    display:inline-block;
+    margin-top:80px;
+    font-size:27px;
+    color:#EFA35A;
+    text-decoration:none;
+}
+.btn123{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:80px 0;
+}
+
+.btn123 button{
+    padding:20px 35px;
+    font-size:22px;
+    border:1px solid #E4E4E4;
+    background:white;
+    cursor:pointer;
+}
+
+.btn123 button:hover{
+    border-color:#EFA35A;
+}
+@media(max-width:1024px){
+
+    .n1{
+        font-size:42px;
+        padding:70px 40px 30px;
+    }
+
+    .news-list{
+        padding:0 40px;
+    }
+
+    .news-card{
+        gap:30px;
+    }
+
+    .news-text{
+        padding:40px 30px;
+    }
+
+    .news-text h2{
+        font-size:30px;
+    }
+
+    .news-text p{
+        font-size:20px;
+    }
+
+    .news-text a{
+        font-size:20px;
+        margin-top:40px;
+    }
+}
+@media(max-width:768px){
+
+    .n1{
+        font-size:30px;
+        padding:40px 20px;
+    }
+
+    .year{
+        display:none;
+    }
+
+    .news-list{
+        padding:0 20px;
+        gap:30px;
+    }
+
+    .news-card{
+        flex-direction:column;
+    }
+
+    .news-card img{
+        width:100%;
+    }
+
+    .news-text{
+        width:100%;
+        padding:25px 15px;
+    }
+
+    .news-text h2{
+        font-size:22px;
+    }
+
+    .news-text p{
+        font-size:16px;
+    }
+
+    .news-text a{
+        font-size:18px;
+        margin-top:25px;
+    }
+
+    .btn123{
+        flex-wrap:wrap;
+        gap:10px;
+        padding:40px 0;
+    }
+
+    .btn123 button{
+        font-size:16px;
+        padding:10px 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+     <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="logo info">
+            <img src="../../../assets/img/svg/windom logo 4 (2).png" alt="" />
+          </div>
+          <div class="navbar-info">
+            <div class="info-container info">
+              <div class="menu-item">
+                <label for="toggle-proekty">Наши проекты <img src="../../../assets/img/svg/arrow-down.svg" alt=""></label>
+                <input type="checkbox" id="toggle-proekty" />
+                <ul>
+                  <li><a href="">Изумрудный Village</a></li>
+                  <li><a href="">IQ CLUB</a></li>
+                  <li><a href="">Усады</a></li>
+                  <li><a href="">Зимняя горка</a></li>
+                  <li><a href="">Константиновка</a></li>
+                </ul>
+              </div>
+
+              <div class="menu-item">
+                <label for="toggle-doma">Дома <img src="../../../assets/img/png/Vector (1).png" alt=""></label>
+                <input type="checkbox" id="toggle-doma" />
+                <ul>
+                  <li><a href="">Одноэтажные</a></li>
+                  <li><a href="">Двухэтажные</a></li>
+                  <li><a href="">Таунхаусы</a></li>
+                  <li><a href="">Все дома</a></li>
+                </ul>
+              </div>
+
+              <a href="">Ипотека</a>
+
+              <div class="menu-item">
+                <label for="toggle-kompany">О компании <img src="../../../assets/img/png/Vector (1).png" alt=""></label>
+                <input type="checkbox" id="toggle-kompany" />
+                <ul>
+                  <li><a href="">Команда</a></li>
+                  <li><a href="">СМИ о нас</a></li>
+                  <li><a href="">Новости</a></li>
+                </ul>
+              </div>
+
+              <a href="">Контакты</a>
+            </div>
+
+            <div class="contact-container info">
+              <img src="../../../assets/img/png/ph_phone.png" alt="" />
+              <span>+7 (962) 555-25-25</span>
+            </div>
+            <div class="navbar-btn info">
+              <button><a href="">Заказать звонок</a></button>
+            </div>
+          </div>
+          <div class="navbar-icon">
+            <label for="icon-menu">
+              <img
+                src="../../../assets/img/png/iconamoon_menu-burger-horizontal-light.png"
+                alt="icon"
+                for="icon-menu"
+            /></label>
+            <input type="checkbox" id="icon-menu" />
+            <ul>
+              <li>
+                <a href="">
+                  <img src="" alt=""
+                /></a>
+              </li>
+              <li><a href=""> О компании</a></li>
+              <li><a href=""> Проекты</a></li>
+              <li><a href=""> Ипотека</a></li>
+              <li><a href=""> Новости</a></li>
+              <li><a href=""> СМИ о нас</a></li>
+              <li><a href=""> Команда</a></li>
+              <li><a href=""> Контакты</a></li>
+              <li>
+                <a href=""> <img src="../../../assets/img/png/ph_phone.png" alt="" /> +7 (962) 555-25-25</a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-vk"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-whatsapp"></i
+                > </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="navbar-btn info">
+                    <button><a href="">Заказать звонок</a></button>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.info-container.info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 0 10px;
+}
+
+.info-container.info a,
+.info-container.info label {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.info-container.info input {
+  display: none;
+}
+
+.info-container.info ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+  min-width: 150px;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+}
+
+.info-container.info ul li a {
+  padding: 10px;
+  display: block;
+  white-space: nowrap;
+}
+
+.info-container.info ul li a:hover {
+  color: #efa35a;
+}
+
+.info-container.info input:checked + ul {
+  display: block;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.navbar-btn button {
+  font-size: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #efa35a;
+}
+
+.navbar-btn button:hover {
+  background-color: #f5dcc2;
+}
+
+.navbar-btn button a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-info {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.navbar-icon {
+  display: none;
+}
+
+@media screen and (max-width: 834px) {
+  .navbar-icon {
+    display: block;
+    position: relative; 
+  }
+
+  .navbar-info {
+    display: none;
+  }
+
+  .navbar-icon input {
+    display: none;
+  }
+
+  .navbar-icon ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .navbar-icon input:checked ~ ul {
+    display: block;
+  }
+
+  .navbar-icon ul li {
+    list-style: none;
+  }
+
+  .navbar-icon ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .navbar-icon ul li a:hover {
+    color: #efa35a;
+  }
+}
+</style>
+    </header> 
+<h3 class="n1">НОВОСТИ</h3>
+
+<div class="year">
+    <span>2017</span>
+    <span>2018</span>
+    <span>2019</span>
+    <span>2020</span>
+    <span>2021</span>
+    <span>2022</span>
+    <span>2023</span>
+</div>
+
+<div class="news-list">
+
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117.png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <div class="newscarddatatime">
+              <img src="../../../assets/img/png/Group 149.png" alt="">
+            </div>
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117 (1).png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png">
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117 (2).png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png">
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117 (3).png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png">
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117 (4).png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png">
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117 (5).png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png">
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="../../../assets/img/png/Rectangle 117 (6).png">
+        <div class="news-text">
+            <h2>10 причин, почему вам нужно <br> поменять квартиру на таунхаус</h2>
+            <img src="../../../assets/img/png/Group 149.png">
+            <p>
+                По данным Всероссийского центра изучения <br>
+                общественного мнения — 68% горожан хотели бы <br>
+                переехать в частный дом.
+            </p>
+            <a href="#">Читать далее</a>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="btn123">
+    <button>< Пред.</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>Пред. ></button>
+</div>
+<footer class="about_footer">
+      <div class="about_container footer-row">
+        <div class="foot-info">
+          <h2>О компании</h4>
+          <hr class="footer_hr" />
+          <a href="">Главная</a>
+          <a href="">Наша команда </a>
+          <a href="">СМИ о нас</a>
+          <a href="">Отзывы</a>
+          <a href="">Новости</a>
+          <a href="">Контакты</a>
+        </div>
+        <div class="foot-info">
+          <h2>Проекты</h4>
+          <hr class="footer_hr" />
+          <a href="">Изумрудный Village</a>
+          <a href="">IQ-CLUB</a>
+        </div>
+        <div class="foot-info">
+          <h2>Ипотека</h4>
+          <hr class="footer_hr" />
+          <a href="">Военная ипотека</a>
+          <a href="">Господдержка</a>
+        </div>
+        <div class="footer-social">
+            <img src="../../../../Building_company/assets/img/png/windom logo 3.png" alt="" />
+            <div class="social-icon">
+              <a href=""> <i class="fa-brands fa-youtube"></i></a>
+              <a href=""> <i class="fa-brands fa-vk"></i></a>
+              <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+              <a href=""> <i class="fa-brands fa-whatsapp"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-about">
+          <a href="">Политика конфиденциальности</a>
+          <a href="" class="email"> <i class="fa-regular fa-envelope"></i> windom.kazan@gmail.com</a>
+      </div>
+      <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about_footer {
+  background: #333;
+  color: #fff;
+  margin-top: 80px;
+  font-family: sans-serif;
+  padding: 50px 40px;
+}
+.footer-row {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.foot-info a:hover {
+  color: #efa35a;
+}
+
+.foot-info a {
+  text-decoration: none;
+  color: rgb(176, 174, 174);
+  font-size: 20px;
+}
+
+.footer_hr {
+  border: 1px solid #efa35a;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.foot-info {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+.social-icon a {
+  color: white;
+  font-size: 20px;
+}
+
+.social-icon a:hover {
+  color: #efa35a;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-about {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+}
+.email {
+  padding: 5px;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 834px) {
+  .foot-info a {
+    display: none;
+  }
+  .foot-info h2 {
+    font-size: 15px;
+  }
+  .footer-social img {
+    width: 160px;
+    height: 142px;
+  }
+}
+
+@media  screen and (max-width: 380px) {
+    .foot-info {
+        display: none;
+    }
+
+    .footer-about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+      </style>
+    </footer> 
+    
+</body>
+</html>

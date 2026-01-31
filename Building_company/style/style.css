@@ -1,0 +1,121 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  position: absolute;
+  padding: 0 16%;
+  background-color: rgba(255, 255, 255, 0.584);
+}
+
+.button {
+  padding-top: 50px;
+}
+
+.button .button1 {
+  background-color: #EFA359;
+}
+
+.button .button1:hover {
+  background-color: #F5DCC2;
+  border: 1px solid #EFA35A;
+}
+
+.button .button1:hover a {
+  color: black;
+}
+
+.button .button2:hover {
+  background-color: white;
+  border: 1px solid #EFA35A;
+}
+
+.button .button2:hover a {
+  color: black;
+}
+
+.button button {
+  padding: 10px;
+  border: 1px solid #efa359;
+  background-color: #353535b0;
+}
+
+.button button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.home {
+  width: 446px;
+}
+
+.main-txt {
+  background-image: url("/assets/img/svg/main-photo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 802px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  height: 802px;
+  color: white;
+}
+
+.main h1,
+.main h2 {
+  font-weight: 100;
+}
+
+.main span {
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.txt1 {
+  color: #efa359;
+}
+
+@media screen and (max-width: 834px) {
+  header {
+    padding: 0 42%;
+    text-align: end;
+  }
+  header .logo img {
+    padding: 0 50% 0 0;
+  }
+  .main-txt h1 {
+    font-size: 18px;
+  }
+  .main-txt h2 {
+    font-size: 25px;
+  }
+  .main-txt span {
+    font-size: 80px;
+  }
+  .main-txt .button button a {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

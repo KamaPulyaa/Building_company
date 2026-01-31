@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/pages/ipoteka/scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+ <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+        <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="logo info">
+            <img src="/assets/img/svg/header-logo.svg" alt="" />
+          </div>
+          <div class="navbar-info">
+            <div class="info-container info">
+              <div class="menu-item">
+                <label for="toggle-proekty">Наши проекты</label>
+                <input type="checkbox" id="toggle-proekty" />
+                <ul>
+                  <li><a href="">Изумрудный Village</a></li>
+                  <li><a href="">IQ CLUB</a></li>
+                  <li><a href="">Усады</a></li>
+                  <li><a href="">Зимняя горка</a></li>
+                  <li><a href="">Константиновка</a></li>
+                </ul>
+              </div>
+
+              <div class="menu-item">
+                <label for="toggle-doma">Дома</label>
+                <input type="checkbox" id="toggle-doma" />
+                <ul>
+                  <li><a href="">Одноэтажные</a></li>
+                  <li><a href="">Двухэтажные</a></li>
+                  <li><a href="">Таунхаусы</a></li>
+                  <li><a href="">Все дома</a></li>
+                </ul>
+              </div>
+
+              <a href="">Ипотека</a>
+
+              <div class="menu-item">
+                <label for="toggle-kompany">О компании</label>
+                <input type="checkbox" id="toggle-kompany" />
+                <ul>
+                  <li><a href="">Команда</a></li>
+                  <li><a href="">СМИ о нас</a></li>
+                  <li><a href="">Новости</a></li>
+                </ul>
+              </div>
+
+              <a href="">Контакты</a>
+            </div>
+
+            <div class="contact-container info">
+              <img src="/assets/img/svg/Vector.svg" alt="" />
+              <span>+7 (962) 555-25-25</span>
+            </div>
+            <div class="navbar-btn info">
+              <button><a href="">Заказать звонок</a></button>
+            </div>
+          </div>
+          <div class="navbar-icon">
+            <label for="icon-menu">
+              <img
+                src="/assets/img/svg/icon-burger.svg"
+                alt="icon"
+                for="icon-menu"
+            /></label>
+            <input type="checkbox" id="icon-menu" />
+            <ul>
+              <li>
+                <a href="">
+                  <img src="/assets/img/svg/header-logo.svg" alt=""
+                /></a>
+              </li>
+              <li><a href=""> О компании</a></li>
+              <li><a href=""> Проекты</a></li>
+              <li><a href=""> Ипотека</a></li>
+              <li><a href=""> Новости</a></li>
+              <li><a href=""> СМИ о нас</a></li>
+              <li><a href=""> Команда</a></li>
+              <li><a href=""> Контакты</a></li>
+              <li>
+                <a href=""> <img src="/assets/img/svg/Vector.svg" alt="" /> +7 (962) 555-25-25</a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-vk"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-whatsapp"></i
+                > </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="navbar-btn info">
+                    <button><a href="">Заказать звонок</a></button>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="ipoteka">
+      <div>
+        <h1 class="ipoteka_h1">ИПОТЕКА ОТ <mark>4%</mark></h1>
+        <pre>
+            Уникальные ипотечные программы на условиях. 
+            Просто заполните анкету и получите одобрение.
+            <strong>Всего шаг — до дома вашей мечты!</strong>
+        </pre>
+            <button>Расчитать платёж</button></div>
+    </section>
+        <h2 id="hp2">Ипотека</h2>
+    <section class="alfa">
+      <div class="big1">
+        <div class="vid">
+          <div class="even1">
+            <p class="parag">Вид недвижимости</p>
+            <select class="need1" name="q" id="q">
+              <option value="q">Все</option>
+            </select>
+          </div>
+          <div class="even2">            
+            <p class="parag">Проект</p>
+            <select class="need2" name="q" id="q">
+              <option value="q">Все</option>
+            </select>
+          </div>
+        </div>
+        <div class="open">
+          <p class="parag">Вид ипотеки</p>
+          <select class="need3" name="q" id="q">
+              <option value="q">Все</option>
+            </select>
+            
+        </div>
+        <div class="open_need">
+          <p class="parag">Стоимость</p>
+          <button class="euro">3 000 000 &#8381; </button>
+            <input type="range">  
+        </div>  
+        <div class="open_need">
+          <p class="parag">Первоначальный взнос</p>
+          <button class="euro">3 000 000 &#8381; </button>
+            <input type="range">  
+        </div>  
+        <div class="open_need">
+          <p class="parag">Ежемесячный платёж</p>
+          <button class="euro">60 000 &#8381; </button>
+            <input type="range">  
+        </div>  
+        <button class="vip">Расчитать платёж</button>
+      </div>
+      <div class="big2">
+        <div class="bank">
+          <h6><img src="/assets/img/svg/big_a.svg" alt="">АО “Альфа банк”</h6>
+          <div class="for_textts">
+            <p id="stavka">Ставка</p>
+            <h5>4,1 %</h5>
+          <p class="mec">от 4 000 &#8381; / мес </p>
+          <p id="stavka">Программа</p>
+          <p class="last_text">Семейная</p>
+          </div>
+        </div>
+        <div class="bank">
+          <h6><img src="/assets/img/svg/three.svg" alt="">Банк ВТБ (ПАО)</h6>
+          <div class="for_textts">
+            <p id="stavka">Ставка</p>
+            <h5>6 %</h5>
+          <p class="mec">от 4 000 &#8381; / мес </p>
+          <p id="stavka">Программа</p>
+          <p class="last_text">Семейная</p>
+          </div>
+        </div>
+        <div class="bank">
+          <h6><img src="/assets/img/svg/green_img.svg" alt="">ПАО Сбербанк</h6>
+          <div class="for_textts">
+            <p id="stavka">Ставка</p>
+            <h5>4 %</h5>
+          <p class="mec">от 4 000 &#8381; / мес </p>
+          <p id="stavka">Программа</p>
+          <p class="last_text">Семейная</p>
+          </div>
+        </div>
+        <div class="bank">
+          <h6><img src="/assets/img/svg/c.svg" alt=""> ПАО “Совкомбанк”</h6>
+          <div class="for_textts">
+            <p id="stavka">Ставка</p>
+            <h5>4 %</h5>
+          <p class="mec">от 4 000 &#8381; / мес </p>
+          <p id="stavka">Программа</p>
+          <p class="last_text">Семейная</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="krediti">
+      <div class="all_three">
+        <div class="personn">
+          <div class="text_need">
+            <h1>Ипотечные кредиты</h1>
+            <p>Выгодная ипотечная программы и специальные условия. Просто заполните анкету и получите одобрение. Всего один шаг, и дом — ваш. Ставка действует весь срок до 30 лет при сумме кредита до 100 млн рублей и первом взносе от 13,7%.</p>
+            <button>Рассчитать платёж</button>
+          </div>
+          <div class="for_img">
+            <img src="/assets/img/svg/kredit.svg" alt="">
+          </div>
+        </div>
+
+
+        <div class="personn2">
+          <div class="nrf">
+          <div class="text_need">
+            <h1>Семейная ипотека</h1>
+            <p>Воспользоваться программой «Семейная ипотека» возможно до 1 июля 2024 года при рождении первого ребенка или последующих детей.</p>
+            <button>Рассчитать платёж</button>
+          </div>
+             <div class="for_img">
+            <img src="/assets/img/svg/smeynaya.svg" alt=""> 
+          </div>
+          </div>
+          <div class="nrf"> 
+            <div class="text_need">
+            <h1>Господержка 2023</h1>
+            <p>Ипотеку с господдержкой могут получить граждане России, у которых есть постоянная регистрация, официальная работа и стабильный доход.</p>
+            <button>Рассчитать платёж</button>
+          </div>     
+          <div class="for_img">
+            <img src="/assets/img/svg/smeynaya.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+        <div class="personn">          
+          <div class="text_need">
+            <h1>IT специалистам</h1>
+            <p>Выгодная ипотечная программы и специальные условия. Просто заполните анкету и получите одобрение. Всего один шаг, и дом — ваш. Ставка действует весь срок до 30 лет при сумме кредита до 100 млн рублей и первом взносе от 13,7%.</p>
+            <button>Рассчитать платёж</button>
+          </div>
+          <div class="for_img">
+            <img src="/assets/img/svg/kredit.svg" alt="">
+          </div>
+      </div>
+    </section>
+    <section class="bopros">
+      <div class="for_otvet">
+        <div class="for_h6">
+        <h6>Ответы на </h6>
+          <h5>Вопросы</h5>
+        </div>
+        <div class="for_btn">
+        <button>Перезвоните мне</button>
+      </div>
+      </div>
+      <div class="all_text_div">
+        <div class="for_tex4">
+          <div class="last_flex">
+          <p class="mojno">Можно ли использовать материнский капитал для первоначального взноса?</p>
+          <img src="/assets/img/svg/text.svg" alt=""></div>
+          <p class="small1">Да, возможно. Если средств материнского капитала не хватает для первоначального взноса, то вы можете добавить собственные средства.
+
+После рассмотрения пакета документов банк рассчитывает сумму кредита, который он может выдать на данных условиях. После этого возможны два варианта:
+
+— увеличение максимальной суммы кредита на величину материнского капитала с автоматическим уменьшением первоначального взноса;
+
+— использование материнского капитала для первоначального взноса без увеличения суммы кредита.</p>
+        </div>
+        <div class="for_tex4">
+          <div class="last_flex">
+          <p class="mojno">Нужно ли привозить бумажные документы или все можно отправить электронно?</p>
+          <img src="/assets/img/svg/text.svg" alt=""></div>
+          <p class="small">Для подачи заявки на ипотеку достаточно сканов или фото всех документов. Анкету на кредит также можно подписать дистанционно.</p>
+        </div>
+        <div class="for_tex4">
+          <div class="last_flex">
+          <p class="mojno">Есть ли требование к гражданству?</p>
+          <img src="/assets/img/svg/text.svg" alt="">
+        </div>
+          <p class="small">По стандартным программам требования к гражданству нет. Ипотека с Господдержкой и Семейная ипотека распространяется только на граждан РФ.</p>
+        </div>
+        <div class="for_tex4">
+          <div class="last_flex">
+          <p class="mojno">Я работаю неофициально. У меня есть шанс получить ипотеку?</p>
+          <img src="/assets/img/svg/text.svg" alt="">
+        </div>
+          <p class="small">Да, ипотеку получить возможно. Практические все наши банки-партнеры могут рассмотреть заявку на ипотечный кредит по двум документам, без предоставления документов о трудоустройстве. Для этого необходимо заполнить анкету, паспорт и СНИЛС.</p>
+        </div>
+      </div>
+    </section>  <footer class="about_footer">
+      <div class="about_container footer-row">
+        <div class="foot-info">
+          <h2>О компании</h4>
+          <hr class="footer_hr" />
+          <a href="">Главная</a>
+          <a href="">Наша команда </a>
+          <a href="">СМИ о нас</a>
+          <a href="">Отзывы</a>
+          <a href="">Новости</a>
+          <a href="">Контакты</a>
+        </div>
+        <div class="foot-info">
+          <h2>Проекты</h4>
+          <hr class="footer_hr" />
+          <a href="">Изумрудный Village</a>
+          <a href="">IQ-CLUB</a>
+        </div>
+        <div class="foot-info">
+          <h2>Ипотека</h4>
+          <hr class="footer_hr" />
+          <a href="">Военная ипотека</a>
+          <a href="">Господдержка</a>
+        </div>
+        <div class="footer-social">
+            <img src="/assets/img/svg/window.svg" alt="" />
+            <div class="social-icon">
+              <a href=""> <i class="fa-brands fa-youtube"></i></a>
+              <a href=""> <i class="fa-brands fa-vk"></i></a>
+              <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+              <a href=""> <i class="fa-brands fa-whatsapp"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-about">
+          <a href="">Политика конфиденциальности</a>
+          <a href="" class="email"> <i class="fa-regular fa-envelope"></i> windom.kazan@gmail.com</a>
+      </div>
+    </footer>
+</body>
+</html>
