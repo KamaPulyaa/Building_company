@@ -336,24 +336,31 @@ h2 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: none;
+        /* border: none; */
         margin: 0;
         padding: 0; 
-        
+        width: fit-content;
+        padding-top: 0;
+        margin: 0 auto;
+        margin-top: 20px;
     }
     img{
-      padding-top: 50px ;
+      /* padding-top: 50px ; */
     }
     .st-sec-p p{
         display: none;    
     }
     .nextimg{
-      margin-left: 40px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
     }
     .st-sec-p h3{
         max-width: 800px;
         width: 100%;
         display: inline;
+        margin: 10px;
 
     }
     .st-sec-p{
@@ -375,6 +382,12 @@ h2 {
       cursor: pointer;
 }
 }
-@media screen and (max-width: 1107px){
-    
+@media screen and (max-width: 698px){
+
+    .st-sec-btn{
+      display: none;
+    }
+    .smi_st-sec{
+      margin: 0 auto;
+    }
 }
