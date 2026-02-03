@@ -391,3 +391,17 @@ h2 {
       margin: 0 auto;
     }
 }
+@media screen and (max-width: 570px){
+    .smi_st-sec {
+      margin: 20px 0 0 0 ;
+    }
+    .st-sec-p h3{
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .smi_st-sec{
+      border: 2px solid #EFA359;
+    }
+}
